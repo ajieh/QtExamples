@@ -7,10 +7,13 @@
 #include <QDialog>
 #include <QLabel>
 #include <QPushButton>
+#include <QLineEdit>
 #include <QDockWidget>
 #include <QVBoxLayout>
 #include <QMessageBox>
 #include <QTextEdit>
+#include <QInputDialog>
+#include <QProgressDialog>
 #include <QFileDialog>
 #include <QColorDialog>
 #include <QFontDialog>
@@ -33,12 +36,17 @@ private:
     QPushButton*    modalButton;
     QPushButton*    modelessButton;
     QPushButton*    halfModalButton;
+    QPushButton*    progressButton;
     QPushButton*    warningButton;
     QPushButton*    infoButton;
     QPushButton*    questionButton;
+    QPushButton*    criticalButton;
+    QPushButton*    aboutButton;
+    QPushButton*    inputButton;
     QPushButton*    colorButton;
     QPushButton*    fontButton;
     QPushButton*    fileButton;
+    QLineEdit*      numberLine;
     QLabel*         fontLabel;
     QLabel*         colorLabel;
     QTextEdit*      filePathEdit;
@@ -48,11 +56,16 @@ private slots:
     void handle_modalButton_clicked();
     void handle_modelessButton_clicked();
     void handle_halfModalButton_clicked();
+    void handle_progressButton_clicked();
     void handle_warningButton_clicked();
+    void handle_criticalButton_clicked();
     void handle_infoButton_clicked();
     void handle_questionButton_clicked();
+    void handle_aboutButton_clicked();
+    void handle_inputButton_clicked();
     void handle_colorButton_clicked();
     void handle_fontButton_clicked();
     void handle_fileButton_clicked();
+
 };
 #endif // WIDGET_H
