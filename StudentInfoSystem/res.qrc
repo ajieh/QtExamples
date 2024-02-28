@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/qss"/>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <file>icon/quit.png</file>
+        <file>icon/student.ico</file>
+    </qresource>
+</RCC>

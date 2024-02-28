@@ -1,0 +1,143 @@
+﻿/*登录窗口*/
+QFrame#loginFrame
+ {
+    background-color:#ffffff;
+    border:none;
+    border-radius:15px;
+}
+/*输入框*/
+QLineEdit {
+    border: 1px solid #DCDCDC;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+QLineEdit:hover {
+    border: 1px solid #57BFBE;
+}
+
+/*按钮*/
+QPushButton {
+    border: 1px solid #91948f;
+    border-radius: 6px;
+    background-color: #F5F5F5;
+    color: #757873;
+    font-family: Microsoft YaHei;
+    padding: 10px 20px;
+}
+
+QPushButton:hover {
+    border:none;
+    background-color: #57BFBE;
+    color:#FFFAFA;
+}
+
+QPushButton:pressed {
+    background-color: #008D8E;
+    border: 1px solid #11ABAC;
+}
+
+QPushButton#registerBtn, #showPasswordBtn{
+    border: none;
+    background-color: #ffffff;
+    color: #57BFBE;
+}
+
+QPushButton#registerBtn:pressed, #showPasswordBtn:pressed{
+    color: #008D8E;
+}
+
+QLabel#loginTitleLabel{
+    background-color: #11ABAC;
+    color:#FFFAFA;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*MainWindow*/
+QMainWindow{
+    background:#ffffff;
+}
+
+QWidget#titleWidget{
+    background-color: #008D8E;
+}
+
+/*退出按钮*/
+QPushButton#exitBtn{
+    background-color: transparent;
+    border: none;
+    image:url(:/icon/quit.png);
+}
+
+QTreeWidget {
+    background-color: #434A54;
+    color: #FFFFFF;
+}
+
+QTreeView::item {
+    height: 30px;
+    border: none;
+    padding: 4px;
+
+}
+
+QTreeView::item:selected {
+    background-color: #57BFBE;
+}
+
+QTableWidget{
+    background:#fffef9;
+    border:1px solid #DCDCDC;
+    gridline-color:#15231b;
+}
+
+/*表头*/
+QHeaderView::section{
+    text-align:center;
+    background:#57BFBE;
+    color:#ffffff;
+}
+
+/*选中某行*/
+QTableWidget::item:selected{
+    background:#11ABAC;
+}
+
+QLabel#infoLabel, #adminLabel{
+    font-family: Microsoft YaHei;
+    color: #ffffff;
+}
+
+/*添加、修改学生对话框*/
+QDialog{
+    background-color: #ffffff;
+}
+
+QComboBox {
+    border: 1px solid #DCDCDC;
+    border-radius:6px;
+    background-color: #ffffff;
+    text-align: AlignHCenter;
+}
+
+QSpinBox {
+    border: 1px solid #DCDCDC;
+    border-radius:6px;
+    background-color: #ffffff;
+    text-align: AlignHCenter;
+}
+
+QDoubleSpinBox {
+    border: 1px solid #DCDCDC;
+    border-radius:6px;
+    background-color: #ffffff;
+    text-align: AlignHCenter;
+}
+
+QDateEdit {
+    border: 1px solid #DCDCDC;
+    border-radius:6px;
+    background-color: #ffffff;
+    text-align: AlignHCenter;
+}
