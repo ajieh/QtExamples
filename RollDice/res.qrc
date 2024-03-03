@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>beautify.qss</file>
+        <file>dice/dice_init.png</file>
+        <file>dice/dice_two.png</file>
+        <file>dice/dice_five.png</file>
+        <file>dice/dice_four.png</file>
+        <file>dice/dice_one.png</file>
+        <file>dice/dice_six.png</file>
+        <file>dice/dice_three.png</file>
+        <file>dice/dice_icon.ico</file>
+    </qresource>
+</RCC>

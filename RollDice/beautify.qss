@@ -1,0 +1,61 @@
+﻿/*QDialog*/
+QDialog{
+    background-color: #FFFAFA;
+}
+
+/* 设置 QPushButton */
+QPushButton {
+    background-color: #ef5d6c;
+    border: 1px solid #ee2746;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    font-size: 18px;
+    font-family: Microsoft-YaHei;
+}
+
+/*清空按钮*/
+QPushButton#clearBtn{
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+/* 设置鼠标悬停时的样式 */
+QPushButton:hover {
+    background-color: #de1c31;
+}
+
+/* 设置按钮按下时的样式 */
+QPushButton:pressed {
+    background-color: #a21625;
+}
+
+/*设置按钮禁用时的样式*/
+QPushButton:disabled{
+    background-color: #e8c9cc;
+    border: none;
+}
+
+/*显示图片的label*/
+QLabel#displayDiceLabel{
+    background-color: #ffffff;
+    border: 1px solid #ef5d6c;
+    border-radius: 3px;
+}
+
+/*显示状态的Label*/
+QLabel#threadStatusLabel{
+    font-size: 18px;
+    font-family: Microsoft-YaHei;
+}
+
+/*文本框*/
+QPlainTextEdit{
+    background-color: #ffffff;
+    border: 1px solid #d4c9ca;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: Microsoft-YaHei;
+}
